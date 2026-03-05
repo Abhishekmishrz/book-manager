@@ -4,7 +4,11 @@ import '@/styles/globals.css';
 export const metadata: Metadata = {
   title: 'Bookshelf — Your Personal Reading Space',
   description: 'Log your books, track your habits, and rediscover your favorite authors.',
-  icons: { icon: '/favicon.svg' },
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
